@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* common */
+body{
+    background-color: #DCDCDC;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* fine common */
+
+/* header */
+header{
+    line-height: 100px; 
+    height:100px ;
+    background-color: white;
+}
+
+#logo{
+    height: 70px;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+#titolo-logo{
+    vertical-align: middle;
+    font-size: 50px;
+    font-weight: 1000;
+}
