@@ -9,13 +9,6 @@ body{
     background-color: #DCDCDC;
     font-family: 'Source Sans Pro', sans-serif;
 }
-
-#hr{
-    background-color: #DCDCDC;
-    color: #DCDCDC;
-    border: 0;
-    height: 2px;
-}
 /* fine common */
 
 /* header */
@@ -25,13 +18,11 @@ header{
     height:100px ;
     background-color: white;
 }
-
 #logo{
     height: 70px;
     vertical-align: middle;
     padding-left: 20px;
 }
-
 #titolo-logo{
     vertical-align: middle;
     font-size: 50px;
@@ -39,14 +30,21 @@ header{
 }
 
 /* main */
+#hr{
+    background-color: #DCDCDC;
+    color: #DCDCDC;
+    border: 0;
+    height: 2px;
+}
 
+/* parte superiore main */
 main{
     width: 80%;
     margin: 50px auto;
     background-color: white;
     border-radius: 10px;
+    padding-bottom: 50px;
 }
-
 .main-top{
     height: 70px;
     line-height: 70px;
@@ -61,29 +59,24 @@ main{
     padding: 1px 9px;
     margin-right: 10px;
 }
-
 #botton-task{
     color: white;
 }
-
 #botton-section{
     color: darkgray;
     border: 1px solid darkgray;
 }
 
-.blu{
-    background-color: #00BFFF;
-}
-
+/* titoli sezioni */
 .section-title{
     font-size: 35px;
     font-weight: 600;
 }
-
 #freccia{
     font-size: 20px;
 }
 
+/* spunta verde e x rossa */
 .v-verde{
     display: inline-block;
     color: green;
@@ -94,13 +87,23 @@ main{
     font-size: 15px;
     margin-right: 10px;
 }
+.x-rossa{
+    display: inline-block;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding:0 4px; 
+    text-align: center;
+    font-size: 15px;
+    margin-right: 10px;
+}
 
+/* task */
 .task{
     font-size: 20px;
     font-weight: 600;
     margin-top: 15px;
 }
-
 .botton{
     display: inline-block;
     font-size: 13px;
@@ -110,8 +113,36 @@ main{
     padding: 4px 8px;
     margin-left: 10px;
 }
-
 .task-name{
     padding-left: 40px;
-    margin-top: 25px;
+    margin-top: 30px;
 }
+
+/* colori dei bottoni */
+.blu{
+    background-color: #00BFFF;
+}
+.viola{
+    background-color: #9932CC;
+}
+.verde{
+    background-color: #8FBC8F;
+}
+.arancione{
+    background-color: orange;
+}
+.rosa{
+    background-color: #FF69B4;
+}
+.verdino{
+    background-color: #9ACD32;
+}
+
+ 
+
+ 
+
+ 
+ 
+
+ 
